@@ -1,0 +1,31 @@
+{
+  "name": "alias-decorator",
+  "version": "1.0.0",
+  "description": "Alias methods via an ES7 decorator",
+  "main": "./src",
+  "scripts": {
+    "test": "standard && babel-tape-runner test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bendrucker/alias-decorator.git"
+  },
+  "keywords": [
+    "decorator",
+    "alias",
+    "es7",
+    "esnext"
+  ],
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://www.bendrucker.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bendrucker/alias-decorator/issues"
+  },
+  "homepage": "https://github.com/bendrucker/alias-decorator",
+  "devDependencies": {
+    "babel": "~5.1.10",
+    "babel-tape-runner": "~1.1.0",
+    "standard": "bendrucker/standard#babel",
+    "tape": "~4.0.0"
+  }
+}
