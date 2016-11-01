@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/bendrucker/alias-decorator",
   "devDependencies": {
-    "babel": "~5.1.10",
-    "babel-tape-runner": "~1.1.0",
+    "babel": "~6.5.2",
+    "babel-tape-runner": "~2.0.1",
     "standard": "bendrucker/standard#babel",
-    "tape": "~4.0.0"
+    "tape": "~4.6.2"
   }
 }
