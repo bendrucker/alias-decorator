@@ -4,7 +4,7 @@
   "description": "Alias methods via an ES7 decorator",
   "main": "./src",
   "scripts": {
-    "test": "standard && babel-tape-runner test/*.js"
+    "test": "standard --parser babel-eslint && babel-tape-runner test/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,12 @@
   },
   "homepage": "https://github.com/bendrucker/alias-decorator",
   "devDependencies": {
-    "babel": "~5.1.10",
-    "babel-tape-runner": "~1.1.0",
-    "standard": "bendrucker/standard#babel",
-    "tape": "~4.0.0"
-  }
+    "babel-eslint": "^8.0.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-tape-runner": "^2.0.1",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {}
 }

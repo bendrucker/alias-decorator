@@ -9,17 +9,18 @@ $ npm install alias-decorator
 
 ## Usage
 ```js
-import {alias} from 'alias-decorator'
+import alias from 'alias-decorator'
 
 class Dog {
-  @alias('bark')
+  @alias('bark', 'growl')
   speak () {
     console.log('woof')
   }
 }
 
 const dog = new Dog()
-dog.speak === dog.bark
+dog.speak === dog.bark // true
+dog.bark === dog.growl // true
 ```
 
-`alias` copies your property descriptor directly, so properties like `enumerable` will match.
+`alias` copies your property descriptor directly, so properties like `enumerable` are preserved.

@@ -1,7 +1,7 @@
 'use strict'
 
 import test from 'tape'
-import {alias} from '../'
+import alias from '../'
 
 test('alias', (t) => {
   const obj = {
