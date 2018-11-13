@@ -1,4 +1,4 @@
-# alias-decorator [![Build Status](https://travis-ci.org/bendrucker/alias-decorator.svg?branch=master)](https://travis-ci.org/bendrucker/alias-decorator)
+# alias-decorator [![Build Status](https://travis-ci.org/bendrucker/alias-decorator.svg?branch=master)](https://travis-ci.org/bendrucker/alias-decorator) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/alias-decorator.svg)](https://greenkeeper.io/)
 
 Alias methods via an ES7 decorator
 
